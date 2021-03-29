@@ -1,0 +1,3 @@
+const reverseSeq = (n) => {
+  return [];
+};
