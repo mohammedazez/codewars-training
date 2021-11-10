@@ -1,18 +1,19 @@
 package main
 
 import (
+	"strings"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"strings"
 )
 
 func IsPalindrome(str string) bool {
-	// fmt.Println("str", str)
+
 	lowerCase := strings.ToLower(str)
-	for i := 0; i < len(lowerCase)/2; i++ {
-		// fmt.Println("first", string(str[i]))
-		// fmt.Println("last", string(str[len(str)-i-1]))
-		if string(lowerCase[i]) != string(lowerCase[len(lowerCase)-i-1]) {
+	for i := 0; i < len(string(lowerCase))/2; i++ {
+		// fmt.Println(string(lowerCase[i]))
+		// fmt.Println(string(lowerCase[len(lowerCase)-1-i]))
+		if string(lowerCase[i]) != string(lowerCase[len(lowerCase)-1-i]) {
 			return false
 		}
 	}
