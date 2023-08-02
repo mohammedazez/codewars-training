@@ -1,5 +1,7 @@
 package main
 
+import "golang/questions"
+
 func main() {
 	// makeuppercase
 	// fmt.Println(MakeUpperCase("hello"))
@@ -31,4 +33,7 @@ func main() {
 
 	// multiple number
 	// questions.FindMultiples(1, 2)
+
+	a := "Muhamad Aziz"
+	questions.StringToArray(a)
 }
