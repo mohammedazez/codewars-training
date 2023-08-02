@@ -1,13 +1,14 @@
 package main
 
-import "fmt"
-
 func main() {
 	// makeuppercase
 	// fmt.Println(MakeUpperCase("hello"))
 
 	// ispalindrome
 	// fmt.Println(IsPalindrome("abba"))
+	// fmt.Println(IsPalindrome("kodok"))
+	// fmt.Println(IsPalindrome("aba"))
+	// fmt.Println(IsPalindrome("hello"))
 
 	// twiceasold
 	// fmt.Println(TwiceAsOld(36, 7))  // 22
@@ -17,11 +18,14 @@ func main() {
 	// fmt.Println(TwiceAsOld(29, 0))  // 29
 
 	// Get Nth Even Number
-	fmt.Println(NthEven(1))
-	fmt.Println(NthEven(2))
-	fmt.Println(NthEven(3))
-	fmt.Println(NthEven(4))
-	fmt.Println(NthEven(5))
-	fmt.Println(NthEven(100))
-	fmt.Println(NthEven(1298734))
+	// fmt.Println(NthEven(1))
+	// fmt.Println(NthEven(2))
+	// fmt.Println(NthEven(3))
+	// fmt.Println(NthEven(4))
+	// fmt.Println(NthEven(5))
+	// fmt.Println(NthEven(100))
+	// fmt.Println(NthEven(1298734))
+
+	// Fix String Case
+	// fmt.Println(solve("coDe"))
 }
