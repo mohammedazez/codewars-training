@@ -34,6 +34,9 @@ func main() {
 	// multiple number
 	// questions.FindMultiples(1, 2)
 
-	a := "Muhamad Aziz"
-	questions.StringToArray(a)
+	// a := "Muhamad Aziz"
+	// questions.StringToArray(a)
+
+	data := []int{-56, -85, 72, -26, -14, 76, -27, 72, 35, -21, -67, 87, 0, 21, 59, 27, -92, 68}
+	questions.MultipleOfIndex(data)
 }
