@@ -40,5 +40,6 @@ func main() {
 	// data := []int{-56, -85, 72, -26, -14, 76, -27, 72, 35, -21, -67, 87, 0, 21, 59, 27, -92, 68}
 	// questions.MultipleOfIndex(data)
 
-	questions.Solution("U", "False")
+	// questions.Solution("U", "False")
+	questions.Between(1, 4)
 }
