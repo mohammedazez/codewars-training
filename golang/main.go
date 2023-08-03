@@ -41,5 +41,7 @@ func main() {
 	// questions.MultipleOfIndex(data)
 
 	// questions.Solution("U", "False")
-	questions.Between(1, 4)
+	// questions.Between(1, 4)
+
+	questions.ReverseSeq(5)
 }
