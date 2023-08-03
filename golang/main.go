@@ -44,5 +44,6 @@ func main() {
 	// questions.Between(1, 4)
 
 	// questions.ReverseSeq(5)
-	questions.Xor(false, false)
+	// questions.Xor(false, false)
+	questions.Hero(100, 40)
 }
