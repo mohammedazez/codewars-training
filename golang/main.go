@@ -43,5 +43,6 @@ func main() {
 	// questions.Solution("U", "False")
 	// questions.Between(1, 4)
 
-	questions.ReverseSeq(5)
+	// questions.ReverseSeq(5)
+	questions.Xor(false, false)
 }
