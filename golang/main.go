@@ -51,6 +51,7 @@ func main() {
 	// questions.OddCount(15023)
 	// fmt.Println((questions.MyString("hello I AM DONALD")))
 
-	questions.DNAtoRNA("GCAT")
+	// questions.DNAtoRNA("GCAT")
+	questions.GetCount("abracadabrae")
 
 }
