@@ -1,6 +1,9 @@
 package main
 
-import "golang/questions"
+import (
+	"fmt"
+	"golang/questions"
+)
 
 func main() {
 	// makeuppercase
@@ -47,4 +50,5 @@ func main() {
 	// questions.Xor(false, false)
 	// questions.Hero(100, 40)
 	questions.OddCount(15023)
+	fmt.Println((questions.MyString("hello I AM DONALD")))
 }
