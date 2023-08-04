@@ -45,5 +45,6 @@ func main() {
 
 	// questions.ReverseSeq(5)
 	// questions.Xor(false, false)
-	questions.Hero(100, 40)
+	// questions.Hero(100, 40)
+	questions.OddCount(15023)
 }
