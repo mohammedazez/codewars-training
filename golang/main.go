@@ -52,6 +52,7 @@ func main() {
 	// fmt.Println((questions.MyString("hello I AM DONALD")))
 
 	// questions.DNAtoRNA("GCAT")
-	questions.GetCount("abracadabrae")
+	// questions.GetCount("abracadabrae")
+	questions.Greet("Johnny")
 
 }
