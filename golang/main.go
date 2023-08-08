@@ -58,6 +58,7 @@ func main() {
 	// questions.ExpressionMatter(1, 6, 1)
 	// questions.CountSheep(3)
 	// questions.Feast("great blue heron", "garlic naan")
-	questions.ReverseWords("yoda doesn't speak like this")
+	// questions.ReverseWords("yoda doesn't speak like this")
+	questions.PowersOfTwo(4)
 
 }
