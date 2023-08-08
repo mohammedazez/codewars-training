@@ -57,6 +57,7 @@ func main() {
 	// questions.Points([]string{"1:1", "2:5", "3:5", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3"})
 	// questions.ExpressionMatter(1, 6, 1)
 	// questions.CountSheep(3)
-	questions.Feast("great blue heron", "garlic naan")
+	// questions.Feast("great blue heron", "garlic naan")
+	questions.ReverseWords("yoda doesn't speak like this")
 
 }
