@@ -60,5 +60,6 @@ func main() {
 	// questions.Feast("great blue heron", "garlic naan")
 	// questions.ReverseWords("yoda doesn't speak like this")
 	questions.PowersOfTwo(4)
+	questions.Grow([]int{4, 1, 1, 1, 4})
 
 }
