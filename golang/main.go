@@ -62,5 +62,6 @@ func main() {
 	// questions.PowersOfTwo(4)
 	// questions.Grow([]int{4, 1, 1, 1, 4})
 	questions.Invert([]int{1, -2, 3, -4, 5})
+	questions.RacePodium(7)
 
 }
