@@ -61,7 +61,9 @@ func main() {
 	// questions.ReverseWords("yoda doesn't speak like this")
 	// questions.PowersOfTwo(4)
 	// questions.Grow([]int{4, 1, 1, 1, 4})
-	questions.Invert([]int{1, -2, 3, -4, 5})
-	questions.RacePodium(7)
+	// questions.Invert([]int{1, -2, 3, -4, 5})
+	// questions.RacePodium(7)
+	questions.SortCharacter("Sample Case")
+	// questions.Psbb(5, []int{1, 2, 4, 3, 3})
 
 }
