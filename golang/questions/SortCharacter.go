@@ -7,6 +7,7 @@ import (
 )
 
 func SortCharacter(word string) {
+
 	var (
 		vowel     string
 		consonant string
