@@ -1,8 +1,6 @@
 package main
 
-import (
-	"golang/questions"
-)
+import "golang/questions"
 
 func main() {
 	// makeuppercase
@@ -65,6 +63,9 @@ func main() {
 	// questions.RacePodium(7)
 	// questions.SortCharacter("Sample Case")
 	// questions.Psbb(5, []int{1, 2, 4, 3, 3})
-	questions.Disemvowel("This website is for losers LOL!")
-
+	// questions.Disemvowel("This website is for losers LOL!")
+	// questions.RangeBitCount(2, 7)
+	// questions.Cats(1, 5)
+	// questions.HighAndLow("1 2 -3 4 5")
+	questions.GetMiddle("muhamdda")
 }
