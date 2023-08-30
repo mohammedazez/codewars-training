@@ -67,5 +67,6 @@ func main() {
 	// questions.RangeBitCount(2, 7)
 	// questions.Cats(1, 5)
 	// questions.HighAndLow("1 2 -3 4 5")
-	questions.GetMiddle("muhamdda")
+	// questions.GetMiddle("muhamdda")
+	questions.ToJadenCase("Dying is mainstream wwwn")
 }
