@@ -1,5 +1,7 @@
 package main
 
+import "golang/questions"
+
 func main() {
 	// makeuppercase
 	// fmt.Println(MakeUpperCase("hello"))
@@ -67,5 +69,5 @@ func main() {
 	// questions.HighAndLow("1 2 -3 4 5")
 	// questions.GetMiddle("muhamdda")
 	// questions.ToJadenCase("Dying is mainstream wwwn")
-
+	questions.TwoSum([]int{2, 7, 11, 15}, 9)
 }
