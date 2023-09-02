@@ -1,6 +1,8 @@
 package main
 
-import "golang/questions"
+import (
+	"golang/questions"
+)
 
 func main() {
 	// makeuppercase
@@ -69,5 +71,11 @@ func main() {
 	// questions.HighAndLow("1 2 -3 4 5")
 	// questions.GetMiddle("muhamdda")
 	// questions.ToJadenCase("Dying is mainstream wwwn")
-	questions.TwoSum([]int{2, 7, 11, 15}, 9)
+	// questions.TwoSum([]int{2, 7, 11, 15}, 9)
+	// questions.SimpleVM([]string{"PUSH 10", "PUSH 20", "ADD"})
+	// Example usage
+	arr1 := []int{1, 3, 2, 6, 4, 1, 2}
+	questions.Solution2(arr1)
+	arr2 := []int{-1, -4}
+	questions.Solution2(arr2)
 }
