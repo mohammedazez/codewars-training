@@ -74,8 +74,9 @@ func main() {
 	// questions.TwoSum([]int{2, 7, 11, 15}, 9)
 	// questions.SimpleVM([]string{"PUSH 10", "PUSH 20", "ADD"})
 	// Example usage
-	arr1 := []int{1, 3, 2, 6, 4, 1, 2}
-	questions.Solution2(arr1)
-	arr2 := []int{-1, -4}
-	questions.Solution2(arr2)
+	// questions.Solution2(arr1)
+	// arr2 := []int{-1, -4}
+	// questions.Solution2(arr2)
+	arr1 := []int{4, 7, 6, 4, 4, 7, 7, 7}
+	questions.FindSomeInt(arr1)
 }
