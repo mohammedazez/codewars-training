@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang/questions"
+	"golang/arrayandhashing"
 )
 
 func main() {
@@ -77,6 +77,9 @@ func main() {
 	// questions.Solution2(arr1)
 	// arr2 := []int{-1, -4}
 	// questions.Solution2(arr2)
-	arr1 := []int{4, 7, 6, 4, 4, 7, 7, 7}
-	questions.FindSomeInt(arr1)
+	// arr1 := []int{4, 7, 6, 4, 4, 7, 7, 7}
+	// questions.FindSomeInt(arr1)
+	// s := "(]"
+	// questions.IsValid(s)
+	arrayandhashing.ContainsDuplicate([]int{1, 2, 3, 1})
 }
