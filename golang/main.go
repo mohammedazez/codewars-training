@@ -81,5 +81,6 @@ func main() {
 	// questions.FindSomeInt(arr1)
 	// s := "(]"
 	// questions.IsValid(s)
-	arrayandhashing.ContainsDuplicate([]int{1, 2, 3, 1})
+	// arrayandhashing.ContainsDuplicate([]int{1, 2, 3, 1})
+	arrayandhashing.GetConcatenation([]int{1, 2, 1})
 }
