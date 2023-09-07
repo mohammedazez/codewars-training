@@ -13,7 +13,13 @@ func IsSubsequence(s string, t string) bool {
 	for i < len(wordS) {
 		j := i
 		for j < len(wordT) {
-			if wordS[i] == wordT[j] {
+			if wordS[i] == wordT[j] && len(wordS) == 1 {
+				if wordS[i] != wordT[j] {
+					wordT = append(wordT[:j], wordT[j+1:]...)
+					j -= 1
+				}
+			}
+			if wordS[i] == wordT[j] && len(wordS) > 1 {
 				break
 			}
 			if wordS[i] != wordT[j] {
