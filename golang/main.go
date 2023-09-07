@@ -1,8 +1,6 @@
 package main
 
-import (
-	"golang/arrayandhashing"
-)
+import "golang/arrayandhashing"
 
 func main() {
 	// makeuppercase
@@ -58,7 +56,7 @@ func main() {
 	// questions.ExpressionMatter(1, 6, 1)
 	// questions.CountSheep(3)
 	// questions.Feast("great blue heron", "garlic naan")
-	// questions.ReverseWords("yoda doesn't speak like this")
+	// fmt.Println((questions.ReverseWords("yoda doesn't speak like this")))
 	// questions.PowersOfTwo(4)
 	// questions.Grow([]int{4, 1, 1, 1, 4})
 	// questions.Invert([]int{1, -2, 3, -4, 5})
@@ -83,5 +81,6 @@ func main() {
 	// questions.IsValid(s)
 	// arrayandhashing.ContainsDuplicate([]int{1, 2, 3, 1})
 	// arrayandhashing.GetConcatenation([]int{1, 2, 1})
-	arrayandhashing.ReplaceElements([]int{17, 18, 5, 4, 6, 1})
+	// arrayandhashing.ReplaceElements([]int{17, 18, 5, 4, 6, 1})
+	arrayandhashing.IsSubsequence("abc", "ahbgdc")
 }
